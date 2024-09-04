@@ -84,7 +84,7 @@ function App(){
 
   return(
     <div className='app'>
-      <h1>Weather Go</h1>
+      <h1>Go Weather</h1>
       <div>
         <input type='text' placeholder='Search for Location...' value={location} onChange={(e) => setLocation(e.target.value)}/>
       </div>
